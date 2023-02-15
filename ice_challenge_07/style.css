@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(35, 35, 35);
+}
+main {
+    background-color: white;
+    display: grid;
+    grid-column: 1fr 1fr 1fr;
+    margin: 10% 20% 10% 20%;
+    border-radius: 10px 10px 10px 10px;
+    border-radius: black;
+    box-shadow: 5px 5px 10px #000000;
+}
+div {
+    display: grid;
+    grid-column: 1fr 1fr;
+    grid-row: 1fr 1fr 1fr;
+    grid-row: 1;
+    grid-column: 2;
+}
+section {
+    display: grid;
+}
+img {
+    grid-column: 1;
+    border-radius: 10px 0px 0px 10px;
+}
+h1 {
+    align-items: center;
+    margin: 10%;
+    grid-row: 1;
+    color: rgb(70, 70, 70);
+}
+h3 {
+    margin: 10%;
+    grid-row: 1;
+    grid-column: 2/2;
+}
+.email_name {
+    grid-row: 2;
+}
+.opt {
+    grid-row: 3;
+    grid-column: 1;
+}
+h2 {
+    color: white;
+    background-color: rgb(255, 111, 0);
+    margin: 0 auto;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px 10px 10px 10px;
+    grid-column: 2/2;
+    grid-row: 3;
+}
+.email {
+    border-radius: 1px gray;
+}
+.name {
+    border-radius: 1px rgb(26, 26, 26);
+}
